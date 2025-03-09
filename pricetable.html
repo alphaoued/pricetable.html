@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pricetable</title>
+    <style>
+        .main-container {
+            height: 900px;
+        }
+
+        .small-container {
+            display: flex;
+            flex-direction: column;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+
+        }
+
+        .title-box {
+            height: 160px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .small-title {
+            font-size: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .flex-box {
+            display: flex;
+            margin: 10px;
+        }
+
+        .box-1,
+        .box-2,
+        .box-3,
+        .box-4 {
+            border: 2px solid gray;
+            height: 700px;
+            width: 500px;
+            margin: 5px;
+            text-align: center;
+        }
+
+        .centered-list {
+            list-style-type: square;
+            margin: 0 auto;
+            list-style-position: inside;
+            padding-bottom: 20px;
+            font-size: 20px;
+            color: #F2C40B;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        button {
+            height: 60px;
+            width: 200px;
+            color: white;
+            background-color: #F2C40B;
+            border: none;
+        }
+
+        .number {
+            padding-top: 20px;
+            color: #F2C40B;
+            font-size: 70px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        span {
+            color: black;
+
+        }
+
+        .box-3 {
+            background-color: #1BBE7D;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="title-box">
+            <h2 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: grey;">
+                PRICING PLAN</h2>
+            <div class="small-container">
+                <h1>Simple prices, flexible</h1>
+                <h1>Options & nothing hidden</h>
+            </div>
+        </div>
+        <div class="flex-box">
+            <div class="box-1">
+                <P class="small-title">Free</P>
+                <P class="number">$0</P>
+                <ul class="centered-list">
+                    <li><span>15 Users</span></li><br>
+                    <li><span>Feature 2</Span></li><br>
+                    <li><span>Feature 3</Span></li><br>
+                    <li><span>Feature 4</span></li><br>
+                </ul>
+                <button>GET PLAN</button>
+            </div>
+            <div class="box-2">
+                <P class="small-title">Individual</P>
+                <P class="number">$29</P>
+                <ul class="centered-list">
+                    <li><span>15 Users</span></li><br>
+                    <li><span>Feature 2</Span></li><br>
+                    <li><span>Feature 3</Span></li><br>
+                    <li><span>Feature 4</span></li><br>
+                </ul>
+                <button>GET PLAN</button>
+
+            </div>
+            <div class="box-3">
+                <P class="small-title" style="color: white;">Business</P>
+                <P class="number">$59</P>
+                <ul class="centered-list">
+                    <li><span style="color: white;">15 Users</span></li><br>
+                    <li><span style="color: white;">Feature 2</Span></li><br>
+                    <li><span style="color: white;">Feature 3</Span></li><br>
+                    <li><span style="color: white;">Feature 4</span></li><br>
+                </ul>
+                <button>GET PLAN</button>
+            </div>
+            <div class="box-4">
+                <P class="small-title">Premium</P>
+                <P class="number">$89</P>
+                <ul class="centered-list">
+                    <li><span>15 Users</span></li><br>
+                    <li><span>Feature 2</Span></li><br>
+                    <li><span>Feature 3</Span></li><br>
+                    <li><span>Feature 4</span></li><br>
+                </ul>
+                <button>GET PLAN</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
